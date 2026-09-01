@@ -1,48 +1,51 @@
-# [C project]
+# C Projects Collection
 
-> A brief description of this C project.
+A collection of lightweight, standalone C programs demonstrating basic algorithms, data structure visualizations, and console applications.
 
-## Table of Contents
+## 📋 Table of Contents
+- [Overview](#overview)
+- [Included Projects](#included-projects)
+- [Prerequisites](#prerequisites)
+- [Building & Running](#building--running)
+- [License](#license)
 
+---
 
+## 🌟 Overview
+This repository contains various mini-projects written in standard C. It serves as a practical implementation guide for:
+* File I/O operations in C
+* Basic data structures & visualization
+* Menu-driven console application design
 
-## Prerequisites
+---
 
-You will need a C compiler and standard build tools.
+## 📂 Included Projects
 
-*   **GCC** or **Clang**
-*   **Make** (standard build utility)
+| Source File | Description |
+| :--- | :--- |
+| `atm.c` | Basic ATM machine interface with balance check and cash withdrawal. |
+| `bank.c` | Simple bank account management system for handling user records. |
+| `binarytrrevisulizer.c` | Binary tree structure visualization tool. |
+| `bus.c` | Bus reservation system logic. |
+| `calculator.c` | Standard command-line calculator for arithmetic operations. |
+| `contactbook1.c` | Contact management system to store, search, and delete contacts. |
 
-## Build
+---
 
-To compile the project, run the following command in the root directory:
+## ⚙️ Prerequisites
+
+To compile and run these projects, you need a standard C compiler installed on your system:
+* **GCC** (`gcc`) or **Clang** (`clang`)
+* **MinGW** (for Windows users)
+
+---
+
+## 🛠️ Building & Running
+
+Each program is independent and can be compiled using GCC.
+
+### 1. Compile a Specific Project
+Navigate to the repository directory and compile any `.c` file:
 
 ```bash
-make
-```
-
-Alternatively, if you are compiling manually:
-
-```bash
-gcc -Wall -Wextra -o program_name src/*.c -I include
-```
-
-## Usage
-
-Once built, you can run the executable:
-
-```bash
-./program_name [arguments]
-```
-
-## Clean
-
-To remove build artifacts and executables:
-
-```bash
-make clean
-```
-
-## License
-
-This project is open source.
+gcc -Wall -Wextra -o atm atm.c

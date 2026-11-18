@@ -44,6 +44,8 @@
 #define MAX_APPOINTMENT_TIME_LENGTH 6
 #define MAX_APPOINTMENT_REASON_LENGTH 100
 #define MAX_APPOINTMENT_COUNT 100
+
+
 typedef struct {
     char name[MAX_NAME_LENGTH];
     char address[MAX_ADDRESS_LENGTH];

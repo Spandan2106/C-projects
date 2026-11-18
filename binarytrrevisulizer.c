@@ -12,6 +12,7 @@ typedef struct Node {
     struct Node *left;
     struct Node *right;
 } Node;
+
 Node* createNode(const char *name) {
     Node *newNode = (Node*)malloc(sizeof(Node));
     strncpy(newNode->name, name, NAME_LEN);

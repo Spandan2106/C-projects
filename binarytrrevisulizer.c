@@ -39,6 +39,8 @@ void freeTree(Node *root) {
     freeTree(root->right);
     free(root);
 }
+
+
 int main() {
     int choice;
     Node *root = NULL;

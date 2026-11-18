@@ -91,6 +91,8 @@ typedef struct {
     Appointment appointments[MAX_APPOINTMENT_COUNT];
     int appointmentCount;
 } HospitalManagementSystem;
+
+
 void initializeHospitalManagementSystem(HospitalManagementSystem *hms) {
     hms->patientCount = 0;
     hms->medicineCount = 0;

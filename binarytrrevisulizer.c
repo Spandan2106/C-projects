@@ -32,6 +32,7 @@ void printTree(Node *root, int space) {
     printf("%s\n", root->name);
     printTree(root->left, space);
 }
+
 void freeTree(Node *root) {
     if (root == NULL) return;
     freeTree(root->left);

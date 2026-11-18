@@ -79,6 +79,8 @@ typedef struct {
     char time[MAX_APPOINTMENT_TIME_LENGTH];
     char reason[MAX_APPOINTMENT_REASON_LENGTH];
 } Appointment;
+
+
 typedef struct {
     Patient patients[MAX_PATIENTS];
     int patientCount;

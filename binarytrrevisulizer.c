@@ -6,6 +6,7 @@
 
 #define MAX_NODES 1000
 #define NAME_LEN 100
+
 typedef struct Node {
     char name[NAME_LEN];
     struct Node *left;

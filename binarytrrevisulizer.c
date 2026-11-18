@@ -20,6 +20,8 @@ Node* createNode(const char *name) {
     newNode->right = NULL;
     return newNode;
 }
+
+
 void printTree(Node *root, int space) {
     if (root == NULL) return;
     space += 10;

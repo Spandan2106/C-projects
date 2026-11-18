@@ -65,6 +65,7 @@ typedef struct {
     char sideEffects[MAX_MEDICINE_SIDE_EFFECTS_LENGTH];
     char additionalInfo[MAX_MEDICINE_ADDITIONAL_INFO_LENGTH];
 } Medicine;
+
 typedef struct {
     char name[MAX_DOCTOR_NAME_LENGTH];
     char specialization[MAX_DOCTOR_SPECIALIZATION_LENGTH];

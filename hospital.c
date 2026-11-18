@@ -73,6 +73,7 @@ typedef struct {
     char email[MAX_DOCTOR_EMAIL_LENGTH];
     char address[MAX_DOCTOR_ADDRESS_LENGTH];
 } Doctor;
+
 typedef struct {
     char date[MAX_APPOINTMENT_DATE_LENGTH];
     char time[MAX_APPOINTMENT_TIME_LENGTH];

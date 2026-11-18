@@ -106,6 +106,7 @@ void addPatient(HospitalManagementSystem *hms, Patient patient) {
         printf("Maximum patient limit reached.\n");
     }
 }
+
 void addMedicine(HospitalManagementSystem *hms, Medicine medicine) {
     if (hms->medicineCount < MAX_MEDICINE_COUNT) {
         hms->medicines[hms->medicineCount++] = medicine;
@@ -113,6 +114,7 @@ void addMedicine(HospitalManagementSystem *hms, Medicine medicine) {
         printf("Maximum medicine limit reached.\n");
     }
 }
+
 void addDoctor(HospitalManagementSystem *hms, Doctor doctor) {
     if (hms->doctorCount < MAX_DOCTOR_COUNT) {
         hms->doctors[hms->doctorCount++] = doctor;

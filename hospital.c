@@ -55,6 +55,7 @@ typedef struct {
     char dateOfAdmission[MAX_DATE_LENGTH];
     char bloodGroup[MAX_BLOOD_GROUP_LENGTH];
 } Patient;
+
 typedef struct {
     char name[MAX_MEDICINE_NAME_LENGTH];
     char dosage[MAX_MEDICINE_DOSAGE_LENGTH];

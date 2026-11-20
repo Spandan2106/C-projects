@@ -88,7 +88,6 @@ int main() {
     printf("=========================================\n");
     printf("           SUDOKU SOLVER (C)             \n");
     printf("=========================================\n");
-    
     printf("\nUnsolved Puzzle:");
     printGrid(grid);
     if (solveSudoku(grid, 0, 0)) {

@@ -46,7 +46,6 @@ int solveSudoku(int grid[N][N], int row, int col) {
         row++;
         col = 0;
     }
-
     // If current spot already contains a number, move to next
     if (grid[row][col] > 0)
         return solveSudoku(grid, row, col + 1);

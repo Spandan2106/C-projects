@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 #define N 9
 
 // Function to print the Sudoku grid

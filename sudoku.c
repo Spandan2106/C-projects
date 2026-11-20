@@ -17,7 +17,6 @@ void printGrid(int grid[N][N]) {
     }
 }
 
-// Check if it's safe to place a number in a given row, col
 int isSafe(int grid[N][N], int row, int col, int num) {
     // Check row
     for (int x = 0; x <= 8; x++)

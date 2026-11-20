@@ -33,7 +33,6 @@ int isSafe(int grid[N][N], int row, int col, int num) {
         for (int j = 0; j < 3; j++)
             if (grid[i + startRow][j + startCol] == num)
                 return 0;
-
     return 1;
 }
 

@@ -26,7 +26,6 @@ int isSafe(int grid[N][N], int row, int col, int num) {
     for (int x = 0; x <= 8; x++)
         if (grid[x][col] == num)
             return 0;
-
     // Check 3x3 subgrid
     int startRow = row - row % 3;
     int startCol = col - col % 3;

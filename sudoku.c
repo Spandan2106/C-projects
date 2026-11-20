@@ -35,7 +35,6 @@ int isSafe(int grid[N][N], int row, int col, int num) {
                 return 0;
     return 1;
 }
-
 // Backtracking function to solve Sudoku
 int solveSudoku(int grid[N][N], int row, int col) {
     // If we have reached the 9th row and 10th column, the puzzle is solved

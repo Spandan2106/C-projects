@@ -40,7 +40,6 @@ int solveSudoku(int grid[N][N], int row, int col) {
     // If we have reached the 9th row and 10th column, the puzzle is solved
     if (row == N - 1 && col == N)
         return 1;
-
     // Move to next row if column reaches N
     if (col == N) {
         row++;

@@ -98,6 +98,5 @@ int main() {
     } else {
         printf("\nNo solution exists for the given puzzle.\n");
     }
-
     return 0;
 }

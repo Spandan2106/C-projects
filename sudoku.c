@@ -1,7 +1,6 @@
 #include <stdio.h>
 #define N 9
 
-// Function to print the Sudoku grid
 void printGrid(int grid[N][N]) {
     printf("\n+-------+-------+-------+\n");
     for (int row = 0; row < N; row++) {

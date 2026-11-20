@@ -22,7 +22,6 @@ int isSafe(int grid[N][N], int row, int col, int num) {
     for (int x = 0; x <= 8; x++)
         if (grid[row][x] == num)
             return 0;
-
     // Check column
     for (int x = 0; x <= 8; x++)
         if (grid[x][col] == num)

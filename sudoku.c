@@ -91,7 +91,6 @@ int main() {
     
     printf("\nUnsolved Puzzle:");
     printGrid(grid);
-
     if (solveSudoku(grid, 0, 0)) {
         printf("\nSolved Puzzle:");
         printGrid(grid);

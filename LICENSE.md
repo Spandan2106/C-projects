@@ -1,4 +1,7 @@
-MIT License
+# MIT License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Repo](https://img.shields.io/badge/GitHub-Spandan2106%2FC--projects-181717?style=flat&logo=github)](https://github.com/Spandan2106/C-projects)
 
 Copyright (c) 2025 Spandan2106
 
